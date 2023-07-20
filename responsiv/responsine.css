@@ -1,0 +1,27 @@
+/* mobile responsive start form here */
+@media screen and (max-width:576px){
+     .nav-container,
+     nav>ul
+     {
+          flex-direction: column;
+     }
+     nav{
+          background-color: transparent;
+          
+     }
+     nav>ul li a{
+          color: #00bdfe;
+          text-align: center;
+     }
+     .header-btn{
+          margin-bottom: 1rem;
+     }
+     .header-banner-container{
+          margin-top: 2rem;
+     }
+
+     
+}
+/* mobile responsive end form here */
+
+/* responsive for tab devise */
